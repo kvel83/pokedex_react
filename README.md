@@ -10,6 +10,8 @@ Aplicación que emula a la Pokedex existente en el animé Pokemon la cual entreg
 
 :warning:En construcción:warning:
 
+:warning:Página optimizada para Google Chrome:warning:
+
 ## Funcionalidades
 
  - Buscar Pokemon: En la ruta **/atraparlosya** tenemos un select con un pool de 20 pokemones ordenados alfabéticamente para seleccionar el que deseemos. Este pool  de información puede ser ampliado de acuerdo a la necesidad.
