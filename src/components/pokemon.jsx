@@ -8,48 +8,29 @@ import BarraEstado from "./barraEstado";
 
 import './pokemon.css';
 import {Badge} from 'react-bootstrap';
-import LoadingSpinner from "./loadingSpinner";
-
 
 const Pokemon = () => {
     const { url } = useContext(MyContext);
     const [pokemonSel, setPokemonSel] = useState({});
-    const [isLoading, setIsLoading] = useState (true);
     const {pokemonSelected} = useParams();
 
-    const showLoader = () => {
-        setIsLoading(true);
-      };
-
-      const hideLoader = () => {
-        setIsLoading(false);
-      };
-
     const getDataPokemon = async() =>{
-        // showLoader();
         console.log(url+pokemonSelected);
         const response = await fetch(url+pokemonSelected);
         const pokemonResponse = response.json().then(
             (data)=> {
                 console.log(data);
                 setPokemonSel(data);
-                // hideLoader();
             }
         );
     }
     useEffect(()=> {
-        // setTimeout(() => {
             getDataPokemon();
-        // }, 3000);
-
     },[pokemonSelected]);
     return (
         <div className="container border border-0 mw-100 vh-90 gap-4">
-            {/* {isLoading && ( */}
-                {/* // <LoadingSpinner /> */}
-            {/* // )} */}
             <div className="whoIs d-flex align-items-center gap-5 bg bg-warning rounded mt-3">
-                {/* <img src={pokemonSel.sprites.other['official-artwork'].front_default} alt="imagen pokemon"/> */}
+                <img src={pokemonSel?.sprites?.other['official-artwork'].front_default} alt="imagen pokemon"/>
                 <div className="data d-flex flex-column text-success fw-5">
                     <h2>¿Quien es ese Pokemon?</h2>
                     <p>Nombre: {pokemonSel.name}</p>
