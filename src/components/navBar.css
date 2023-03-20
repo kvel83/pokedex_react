@@ -1,0 +1,26 @@
+.contenedor{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(228,15,35,0.7917542016806722) 35%);
+}
+.active{
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+.inactive{
+    color: #AFEEEE;
+    text-decoration: none;
+    font-weight: bold;
+}
+.active:hover , .inactive:hover{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.active .pokeballActive{
+    display: block;
+    width: 20px;
+}
+.inactive .pokeballActive{
+    display: none;
+}

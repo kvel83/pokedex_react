@@ -1,0 +1,14 @@
+.container{
+    background: rgb(231,34,14);
+    background: linear-gradient(90deg, rgba(231,34,14,1) 0%, rgba(250,241,6,0.7917542016806722) 72%);
+}
+.ash{
+    height: 50rem;
+}
+.pokebola{
+    width: 30%;
+    height: 30%;
+}
+/* img{ */
+    /* width: 30rem; */
+/* } */

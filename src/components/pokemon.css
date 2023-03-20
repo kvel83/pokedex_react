@@ -1,0 +1,25 @@
+.whoIs{
+    grid-area: whoIs;
+    /* width: 50%; */
+    /* height: 50%; */
+}
+.stats{
+    grid-area: stats;
+    /* width: 50%; */
+    /* height: 50%; */
+}
+.evolution{
+    grid-area: evolution;
+}
+
+.container{
+    background: rgb(231,34,14);
+    background: linear-gradient(90deg, rgba(231,34,14,1) 0%, rgba(250,241,6,0.7917542016806722) 72%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+    'whoIs stats'
+    'evolution evolution'
+    ;
+}
