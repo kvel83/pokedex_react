@@ -49,7 +49,7 @@ const Pokemon = () => {
                 {/* // <LoadingSpinner /> */}
             {/* // )} */}
             <div className="whoIs d-flex align-items-center gap-5 bg bg-warning rounded mt-3">
-                <img src={pokemonSel.sprites.other['official-artwork'].front_default} alt="imagen pokemon"/>
+                {/* <img src={pokemonSel.sprites.other['official-artwork'].front_default} alt="imagen pokemon"/> */}
                 <div className="data d-flex flex-column text-success fw-5">
                     <h2>¿Quien es ese Pokemon?</h2>
                     <p>Nombre: {pokemonSel.name}</p>
