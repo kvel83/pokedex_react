@@ -30,7 +30,7 @@ useEffect(()=>{
   return (
     <div className="App">
       <MyContext.Provider value={globalState}>
-        <BrowserRouter>
+        <BrowserRouter basename='/pokedex_react'>
         <Navbar />
           <Routes>
             <Route  path="/" element={<Home />} />
