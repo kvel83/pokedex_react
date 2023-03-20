@@ -4,6 +4,8 @@
 
 Aplicación que emula a la Pokedex existente en el animé Pokemon la cual entrega información variada sobre el pokemon elegido por el usuario.
 
+![Captura de Pantalla 2023-03-20 a la(s) 18 09 10 (2)](https://user-images.githubusercontent.com/106329497/226466857-502d7510-6e06-42b8-9020-84eadfa907fa.png)
+
 ## Estado del proyecto
 
 :warning:En construcción:warning:
@@ -17,6 +19,9 @@ Aplicación que emula a la Pokedex existente en el animé Pokemon la cual entreg
 	 - Stats
 	 - Tipos a los que pertenece el Pokemon
 	 - Juegos en los que aparece
+
+![Captura de Pantalla 2023-03-20 a la(s) 18 09 17 (2)](https://user-images.githubusercontent.com/106329497/226466975-1d2d8d5c-bd13-424a-a4a9-003d43934fae.png)
+![Captura de Pantalla 2023-03-20 a la(s) 18 10 23 (2)](https://user-images.githubusercontent.com/106329497/226467017-94d7e89a-7c64-4ecc-a20a-284dd4617707.png)
 
 ## Tecnologías utilizadas
 
